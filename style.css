@@ -52,7 +52,7 @@ h1{
 }
 
 .banner img {
-    width: 556px;
+    
     width: 438px;
     position: relative;
    left: 150px;
@@ -174,5 +174,92 @@ p{
  }
 
  /* Mobile resposibe */
+
+ @media only screen and (max-width:400px) {
+     .top-banner{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 500px;
+    width: 400px;
+     }
+     .banner img {
+        width: 350px;
+        position: relative;
+       left:40px;
+    }
+
+    h1{
+        font-size: 19px;
+        position: relative;
+        left: 5px;
+    }
+
+    .players-galary{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        left: 0px;
+        
+        
+    }
+
+    .player {
+        
+        width: 320px;
+        margin-bottom: 27px;
+       
+        box-shadow: 1px 1px 15px rgb(230 228 228);
+    }
+
+    .Bonus-part{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+
+    .video{
+        width: 340px;
+        position: relative;
+        left: 10px;
+    }
+
+    .video iframe{
+        width: 350px;
+        right: 20px;
+    }
+
+    .Sign-up{
+        width: 340px;
+        position: relative;
+left: 15px;
+    }
+
+    
+ .footer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 300px;
+    position: relative;
+    left: 0;
+ }
+
+ .logo img{
+    width: 275px;
+    
+}
+
+.icon img{
+    height: 32px;
+    width: 32px;
+    position: relative;
+    left: 120px; 
+}
+
+.copyright{
+   position: relative;
+   left: 5px; 
+}
+
+}
  
  
