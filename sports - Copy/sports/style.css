@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner{
+    display: flex;
+    height: 549px;
+    width:1160px;
+    background-color:#2D25A0;
+    justify-content: space-evenly;
+    border-right: 188px solid #2D25A0 ;
+    border-bottom: 128px;
+}
+
+.top-left-text{
+    color: white;
+    font-size: 1.7em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    left: 156px;
+
+}
+
+.top-right-img img{
+    width: 60%;
+    position: relative;
+    left: 400px;
+    
+    
+}
+
